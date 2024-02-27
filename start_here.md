@@ -1,4 +1,4 @@
-# An AppSec cat attempts to eat the AppSec dog food: CI edition
+# An AppSec cat attempts to eat the AppSec dog food: CD edition
 
 ## Abstract
 
@@ -20,8 +20,8 @@ He works as an AppSec architect and leads the local OWASP chapter, which you can
 
 ## Agenda
 
-1. System setup
-1. Jenkins setup review
+1. What are we trying to fix?
+1. System setup review
 1. Pipeline maturity and the OWASP SAMM
 1. Tool setup & demo:
    * Development and build environment integration
