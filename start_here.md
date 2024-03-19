@@ -22,18 +22,25 @@ He works as an AppSec architect and leads the local OWASP chapter, which you can
 
 ## Agenda
 
+1. A bit of review
 1. What are we trying to fix?
-1. System setup review
 1. Pipeline maturity and the OWASP SAMM
+2. Artifact Management
+3. Testing: unit, integration
+4. Deployment
+5. Monitoring and Notifications
 1. Tool setup & demo:
    * Development and build environment integration
    * Signature checking
-1. The CD pipeline as code
+1. The CD pipeline ```as code```
+  2. Pipeline Visualization
+  3. Pipeline Optimization
+  4. Integration with Other Tools
 
 ## Key takeaways
-* 
-* 
-* 
+* Automation streamlines software delivery
+* Visibility and traceability improve development
+* Feedback provides continuous improvement
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
