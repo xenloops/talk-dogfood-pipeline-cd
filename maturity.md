@@ -23,4 +23,11 @@ For Secure Deployment, to achieve each level, certain practices must be getting 
 |   |  | Introduce basic protection measures to limit access to your production secrets. |
 
 
+## OWASP ASVS
+
+Further, the OWASP (ASVS) calls out the following:
+V10 Mal
+V14 Configuration
+
+
 [Next slide]()
