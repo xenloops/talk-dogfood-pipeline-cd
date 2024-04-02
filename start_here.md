@@ -46,7 +46,8 @@ He works as an AppSec architect and leads the local OWASP chapter, which you can
 
 ## Ground rules
 * **Interrupt with questions!**
-* There are no silver bullets
+* The only dumb questions are the unasked ones.
+* There are no silver bullets.
 
 <br /><br /><br /><br />
 
