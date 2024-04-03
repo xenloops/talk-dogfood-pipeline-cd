@@ -19,12 +19,12 @@ For Secure Deployment, to achieve each level, certain practices must be getting 
 
 | Level | Requirement | Activities |
 |--|--|--|
-| 1 | Fully documented deployment processes | Formalize the deployment process and secure the used tooling and processes. |
-|   |  | Limit access to production secrets. |
-| 2 | Process includes security verification | Automate the deployment process over all stages and introduce sensible security verification tests. |
-|   |  | Inject secrets dynamically during deployment process from hardened storages and audit all human access to them. |
-| 3 | Process is fully automated with verification of all critical milestones | Automatically verify integrity of all deployed software, independently on whether it's internally or externally developed. |
-|   |  | Improve the lifecycle of application secrets by regularly generating them and by ensuring proper use. |
+| 1 | Fully documented, up-to-date, accessible deployment process.  | Formalize the deployment process and secure the used tooling and processes. |
+|   | Application secrets secured and different per environment. | Limit access to production secrets based on principle of least privilege. Restrict developers from production secrets. |
+| 2 | Automated process includes security verification. | Automate the deployment process over all stages. Use security verification tests. Alert on vulnerabilities. Keep deployment logs for defined time. |
+|   | Secrets get dynamically injected during deployment. | Inject from hardened stores. Prevent human access to secret storage. Confirm that no secrets remain in source or configuration files. Log and alert any access attempts. |
+| 3 | Consistently validate artifact integrity. | Process automatically rolls back deployment on integrity breach, using file signatures created at build time. Confirm authenticity of external software. |
+|   | Practice application secret lifecycle management. | Generate/synchronize application secrets using a vetted solution. Application instances use unique secrets. Periodically change and update secrets. |
 
 
 ## OWASP ASVS
