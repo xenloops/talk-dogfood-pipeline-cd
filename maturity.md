@@ -29,8 +29,23 @@ For Secure Deployment, to achieve each level, certain practices must be getting 
 
 ## OWASP ASVS
 
-Further, the OWASP (ASVS) calls out the following:
-V10 Mal
+The ASVS also divides its standards into three levels:
+
+**Level 1** is the bare minimum that all applications should strive for, or as a first step in a multi-phase effort or for applications do not store or handle sensitive data.
+
+**Level 2** ensures that security controls are in place, effective, and used within the application. Appropriate for applications that handle significant business-to-business transactions, or industries where integrity is a critical facet. A Level 2 app adequately defends against most of the risks associated with software today.
+
+**Level 3** is the highest level of ASVS verification, and is typically reserved for significant levels of security verification, such as those within the military, health and safety, critical infrastructure, etc. Organizations may require this for applications that perform critical functions, where failure could significantly impact the organization's operations. A Level 3 app adequately defends against advanced application security vulnerabilities and also demonstrates principles of good security design.
+
+For deployment, the OWASP (ASVS) calls out the following standards:
+
+### V10 Malicious code
+
+Best efforts should be undertaken to ensure that the code has no inherent malicious code or unwanted functionality. This is not possible without complete access to source code, including third-party libraries.
+
+* Use a code analysis tool that can detect potentially malicious code, such as time functions, unsafe file operations, and network connections.
+* 
+
 V14 Configuration
 
 
