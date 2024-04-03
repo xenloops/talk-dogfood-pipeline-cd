@@ -20,7 +20,11 @@ For Secure Deployment, to achieve each level, certain practices must be getting 
 | Level | Requirement | Activities |
 |--|--|--|
 | 1 | Fully documented deployment processes | Formalize the deployment process and secure the used tooling and processes. |
-|   |  | Introduce basic protection measures to limit access to your production secrets. |
+|   |  | Limit access to production secrets. |
+| 2 | Process includes security verification | Automate the deployment process over all stages and introduce sensible security verification tests. |
+|   |  | Inject secrets dynamically during deployment process from hardened storages and audit all human access to them. |
+| 3 | Process is fully automated with verification of all critical milestones | Automatically verify integrity of all deployed software, independently on whether it's internally or externally developed. |
+|   |  | Improve the lifecycle of application secrets by regularly generating them and by ensuring proper use. |
 
 
 ## OWASP ASVS
