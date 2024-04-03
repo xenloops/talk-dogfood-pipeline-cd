@@ -43,10 +43,18 @@ For deployment, the OWASP (ASVS) calls out the following standards:
 
 Best efforts should be undertaken to ensure that the code has no inherent malicious code or unwanted functionality. This is not possible without complete access to source code, including third-party libraries.
 
-* Use a code analysis tool that can detect potentially malicious code, such as time functions, unsafe file operations, and network connections.
-* 
+| Min level | Standard |
+|--|--|
+| 1 | The application must not load or execute code from untrusted sources, such as modules, plugins, code, or libraries. |
 
-V14 Configuration
+### V14 Configuration
 
+| Min level | Standard |
+|--|--|
+| 1 | Ensure all components are up to date, preferably using a dependency checker during build or compile time. |
+| 1 | Remove all unneeded features, documentation, sample applications and configurations before deployment. |
+| 1 | If application assets (e.g. JavaScript libraries, CSS, or web fonts) are hosted externally (e.g. a CDN), Subresource Integrity (SRI) is used to validate the integrity of the asset. |
+| 1 | Verify that third party components come from pre-defined, trusted, and continually maintained repositories. |
+| 1 | Maintain a Software Bill of Materials (SBOM) of all third party libraries in use. |
 
 [Next slide]()
