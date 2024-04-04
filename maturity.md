@@ -14,6 +14,7 @@ The [OWASP Software Assurance Maturity Model](https://owaspsamm.org) (SAMM):
 * SAMM divides the maturity of each practice into three levels
 * Maturity acually on a continuous scale: [0.0 - 3.0]
 
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 For Secure Deployment, to achieve each level, certain practices must be getting performed:
 
