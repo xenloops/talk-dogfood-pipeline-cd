@@ -25,10 +25,10 @@ He works as an AppSec architect and leads the local OWASP chapter, which you can
 1. What are we trying to fix?
 1. A bit of review
 1. Pipeline maturity and the OWASP SAMM
-2. Artifact Management
-3. Testing: unit, integration
-4. Deployment
-5. Monitoring and Notifications
+2. Artifact management
+3. Secrets management
+5. Deployment
+6. Monitoring and Notifications
 1. Tool setup & demo:
    * Development and build environment integration
    * Signature checking
