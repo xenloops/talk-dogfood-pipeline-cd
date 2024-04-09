@@ -26,4 +26,4 @@ Protect secrets in a key vault:
 
 <br /><br /><br /><br />
 
-[Next slide](.md)
+[Next slide](deploy.md)
