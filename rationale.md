@@ -7,6 +7,10 @@
   * e.g. "community" editions of commercial software
 * Geek cred?
 
+#### Ok, why do we really need a sequel talk?
+
+Feedback from last year's talk showed a need for good nuts-and-bolts tutorials.
+
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 # Preliminaries
