@@ -7,6 +7,11 @@
   * e.g. "community" editions of commercial software
 * Geek cred?
 
+#### And why are these "slides" in Github?
+
+* As security professionals, we should strive to meet developers where they work
+* PowerPoint causes brain warts
+
 #### Ok, why do we really need a sequel talk?
 
 Feedback from last year's talk showed a need for good nuts-and-bolts tutorials.
