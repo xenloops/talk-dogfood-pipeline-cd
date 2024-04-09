@@ -57,16 +57,11 @@ Best efforts should be undertaken to ensure that the code has no inherent malici
 | 1 | If application assets (e.g. JavaScript libraries, CSS, or web fonts) are hosted externally (e.g. a CDN), Subresource Integrity (SRI) is used to validate the integrity of the asset. |
 | 1 | Disable server and application framework debug modes in production. |
 | 1 | Do not expose detailed version information of system components in any part of the response, including HTTP headers. |
-| 1 | Use HTTP security headers: |
-|   |  |
-|   |  |
-|   |  |
-|   |  |
-|   |  |
-|   |  |
+| 1 | Use HTTP security headers, e.g: Content-Type, Content Security Policy, Strict-Transport-Security |
 | 2 | Verify that third party components come from pre-defined, trusted, and continually maintained repositories. |
 | 2 | Maintain a Software Bill of Materials (SBOM) of all third party libraries in use. |
 | 2 | Sandbox third-party libraries to expose only the required behaviour into the application. |
+| 2 | Verify that HTTP headers added by a proxy are actually authenticated by the app. |
 
 
-[Next slide]()
+[Next slide](artifact_mgmt.md)
