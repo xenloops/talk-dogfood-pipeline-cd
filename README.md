@@ -10,3 +10,7 @@ This is a sequel to [last year's talk](https://github.com/xenloops/talk-dogfood-
 
 [Next slide](start_here.md)
 
+
+TODOs
+Update SonarQube
+Update Jenkins
