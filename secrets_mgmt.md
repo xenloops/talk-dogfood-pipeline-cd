@@ -11,6 +11,17 @@ Managing secrets effectively is crucial to maintaining the security and integrit
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
+Why do we need secrets?
+
+* At least to checkout the source code to build.
+* Sign releases of the application using a code signing key.
+* Deploying to each environment requires the credentials for that environment.
+  (You're not using the same creds for dev/test/prod, are you?)
+* Updating the issue tracker with details of relevant Jenkins builds requires credentials for the issue tracker.
+
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
 Key aspects of secrets management in a CI/CD pipeline:
 
 * Environment variables
@@ -41,7 +52,9 @@ An easy solution: the Jenkins [```Secret```](https://javadoc.jenkins.io/hudson/u
 
 A better solution: the Jenkins [Credentials plugin](https://plugins.jenkins.io/credentials)
 
-* 
+* A UI for users to manage the credentials available to Jenkins.
+* Integrates with internal or external credentials stores.
+* Easy password rotation! (Employee change, password leak, IT-imposed change)
 
 <br /><br /><br /><br />
 
