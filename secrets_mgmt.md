@@ -58,4 +58,15 @@ A better solution: the Jenkins [Credentials plugin](https://plugins.jenkins.io/c
 
 <br /><br /><br /><br />
 
+Internal secrets storage takes extra care
+
+* The internal store is stored in the JENKINS_HOME directory.
+* The internal store is encrypted using a key that is also stored in JENKINS_HOME.
+* The JVM running Jenkins must have access to these files.
+* Apply all of the recommendations in [Securing Jenkins](https://wiki.jenkins.io/display/JENKINS/Securing+Jenkins).
+* No builds on the controller (ideally zero executors).
+* Secure the filesystem of the Jenkins controller process.
+
+
+
 [Next slide](deploy.md)
