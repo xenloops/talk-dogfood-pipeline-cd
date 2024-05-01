@@ -65,8 +65,16 @@ Internal secrets storage takes extra care
 * The JVM running Jenkins must have access to these files.
 * Apply all of the recommendations in [Securing Jenkins](https://wiki.jenkins.io/display/JENKINS/Securing+Jenkins).
 * No builds on the controller (ideally zero executors).
-* Secure the filesystem of the Jenkins controller process.
+* Secure the Jenkins filesystem. Jenkins uses strong encryption, but has to store the key somewhere...
 
+<br /><br /><br /><br />
 
+Jenkins key storage
+* Recall how security by obscurity isn't security?
+* Cryptographic key can't be encrypted (how would its unlocking key be stored?)
+* **Literally** the key to the kingdom is in /var/lib/jenkins/secrets/master.key
+* Make sure no one can read this file!
+
+![](images/Jenkins_key_file.png)
 
 [Next slide](deploy.md)
