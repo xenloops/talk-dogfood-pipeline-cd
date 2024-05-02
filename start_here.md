@@ -28,14 +28,14 @@ He works as an AppSec architect and leads the local OWASP chapter, which you can
 2. Artifact management
 3. Secrets management
 5. Deployment
-6. Monitoring and Notifications
 1. Tool setup & demo:
    * Development and build environment integration
    * Signature checking
 1. The CD pipeline ```as code```
-  2. Pipeline Visualization
-  3. Pipeline Optimization
-  4. Integration with Other Tools
+1. Pipeline Visualization
+1. Integration with Other Tools
+
+<br /><br /><br />
 
 ## Key takeaways
 * Automation streamlines software delivery
