@@ -46,22 +46,22 @@ Best efforts should be undertaken to ensure that the code has no inherent malici
 
 | Min level | Standard |
 |--|--|
-| 1 | The application must not load or execute code from untrusted sources, such as modules, plugins, code, or libraries. |
+| 1 | The application must not load or execute code from untrusted sources. |
 
 ### V14 Configuration
 
 | Min level | Standard |
 |--|--|
-| 1 | Ensure all components are up to date, preferably using a dependency checker during build or compile time. |
+| 1 | Ensure all components are up to date, using a dependency checker during build. |
 | 1 | Remove all unneeded features, documentation, sample applications and configurations before deployment. |
-| 1 | If application assets (e.g. JavaScript libraries, CSS, or web fonts) are hosted externally (e.g. a CDN), Subresource Integrity (SRI) is used to validate the integrity of the asset. |
+| 1 | If application assets (e.g. libraries, CSS) are hosted externally (e.g. a CDN), use Subresource Integrity (SRI) to validate the integrity of the assets. |
 | 1 | Disable server and application framework debug modes in production. |
-| 1 | Do not expose detailed version information of system components in any part of the response, including HTTP headers. |
-| 1 | Use HTTP security headers, e.g: Content-Type, Content Security Policy, Strict-Transport-Security |
-| 2 | Verify that third party components come from pre-defined, trusted, and continually maintained repositories. |
+| 1 | Do not expose detailed version information of system components in HTTP responses. |
+| 1 | Use HTTP security headers, e.g: Content-Type, Content Security Policy, Strict-Transport-Security. |
+| 2 | Verify that third-party components come from pre-defined, trusted, and continually maintained repositories. |
 | 2 | Maintain a Software Bill of Materials (SBOM) of all third-party libraries in use. |
-| 2 | Sandbox third-party libraries to expose only the required behavior into the application. |
-| 2 | Verify that HTTP headers added by a proxy are actually authenticated by the app. |
+| 2 | Sandbox third-party libraries to expose only the required behavior to the application. |
+| 2 | Verify that HTTP headers added by a proxy are authenticated by the app. |
 
 
 [Next slide](artifact_mgmt.md)
