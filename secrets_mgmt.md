@@ -77,4 +77,4 @@ Jenkins key storage
 
 ![](images/Jenkins_key_file.png)
 
-[Next slide](deploy.md)
+[Next slide](deployment.md)
