@@ -51,11 +51,9 @@ From last year's talk:
    9. Paste the private key into Jenkins
    10. Enter the passphrase used when creating the keypair
    11. Click Add
+   12. Back on the project's Configure page, select the credential just created
+   13. Click Save
 
-New window will open
-
-Select Kind drop down value as SSH Username with private key. and add ID whatever you want.
-Provide Description and user name of your instance and select Private key as Enter Directly and paste your.
 
 
 
