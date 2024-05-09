@@ -28,18 +28,30 @@ From last year's talk:
 * Before, just grabbed a copy of the code
 * What if we need to check it out?
 
-1. Create asymmetric keypair
-   2. ssh-keygen -b 4096
-   3. cat ~/.ssh/id_rsa.pub
-   4. Copy for next steps
-3. In GitHub:
+<details>
+  <summary> 1. Create asymmetric keypair </summary>
+   
+   1. ssh-keygen -b 4096
+   1. cat ~/.ssh/id_rsa.pub
+   1. Copy for next steps
+
+</details>
+
+<details>
+  <summary> 2. Setup key in GitHub </summary>
+
    1. Settings
    2. SSH and GPG keys
    4. New SSH key button
    7. Name the key
    8. Type: Authentication key
    8. Paste copied public key
-1. In Jenkins:
+
+</details>
+
+<details>
+  <summary> 3. Setup key in Jenkins </summary>
+  
    1. Go to the project > Configure page
    2. Scroll to Pipeline section > Repositories
    3. Under Credentials, Click +Add button and select Jenkins
@@ -54,6 +66,26 @@ From last year's talk:
    12. Back on the project's Configure page, select the credential just created
    13. Click Save
 
+</details>
+
+<details>
+  <summary> 4. Configure Git host key verification in Jenkins </summary>
+
+  The console output of a build will show "You're using 'Known hosts file' strategy to verify ssh host keys, but your known_hosts file does not exist."
+  
+  1. Manage Jenkins > Security > Git Host Key Verification Configuration
+  2.  and configure host key verification.
+   
+</details>
 
 
+<details>
+  <summary> 4.  </summary>
+   
+</details>
+
+<details>
+  <summary> 4.  </summary>
+   
+</details>
 
