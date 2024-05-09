@@ -71,10 +71,14 @@ From last year's talk:
 <details>
   <summary> 4. Configure Git host key verification in Jenkins </summary>
 
-  The console output of a build will show "You're using 'Known hosts file' strategy to verify ssh host keys, but your known_hosts file does not exist."
+  The console output of a build will show "You're using 'Known hosts file' strategy to verify ssh host keys, but your known_hosts file does not exist." We need to tell Jenkins how to identify the remote host it's connecting to.
   
-  1. Manage Jenkins > Security > Git Host Key Verification Configuration
-  2.  and configure host key verification.
+  1. Run cat ~/.ssh/known_hosts in a terminal
+  2. Copy the www.github.com key (to the end "=")
+  3. Manage Jenkins > Security > Git Host Key Verification Configuration
+  4. For Host Key Verification Strategy, select Manually Provided Keys
+  5. Paste the www.github.com key into the Approved Host Keys field
+  6. Click Save
    
 </details>
 
