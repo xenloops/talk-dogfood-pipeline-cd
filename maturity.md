@@ -8,13 +8,13 @@
 * [CICD-SEC-1](https://owasp.org/www-project-top-10-ci-cd-security-risks/CICD-SEC-01-Insufficient-Flow-Control-Mechanisms): Insufficient Flow Control Mechanisms
 * [CICD-SEC-2](https://owasp.org/www-project-top-10-ci-cd-security-risks/CICD-SEC-02-Inadequate-Identity-And-Access-Management): Inadequate Identity and Access Management
 * [CICD-SEC-3](https://owasp.org/www-project-top-10-ci-cd-security-risks/CICD-SEC-03-Dependency-Chain-Abuse): Dependency Chain Abuse
-* [CICD-SEC-4](): Poisoned Pipeline Execution (PPE)
-* [CICD-SEC-5](): Insufficient PBAC (Pipeline-Based Access Controls)
-* [CICD-SEC-6](): Insufficient Credential Hygiene
-* [CICD-SEC-7](): Insecure System Configuration
-* [CICD-SEC-8](): Ungoverned Usage of 3rd Party Services
-* [CICD-SEC-9](): Improper Artifact Integrity Validation
-* [CICD-SEC-10](): Insufficient Logging and Visibility
+* [CICD-SEC-4](https://owasp.org/www-project-top-10-ci-cd-security-risks/CICD-SEC-04-Poisoned-Pipeline-Execution): Poisoned Pipeline Execution (PPE)
+* [CICD-SEC-5](https://owasp.org/www-project-top-10-ci-cd-security-risks/CICD-SEC-05-Insufficient-PBAC): Insufficient PBAC (Pipeline-Based Access Controls)
+* [CICD-SEC-6](https://owasp.org/www-project-top-10-ci-cd-security-risks/CICD-SEC-06-Insufficient-Credential-Hygiene): Insufficient Credential Hygiene
+* [CICD-SEC-7](https://owasp.org/www-project-top-10-ci-cd-security-risks/CICD-SEC-07-Insecure-System-Configuration): Insecure System Configuration
+* [CICD-SEC-8](https://owasp.org/www-project-top-10-ci-cd-security-risks/CICD-SEC-08-Ungoverned-Usage-of-3rd-Party-Services): Ungoverned Usage of 3rd Party Services
+* [CICD-SEC-9](https://owasp.org/www-project-top-10-ci-cd-security-risks/CICD-SEC-09-Improper-Artifact-Integrity-Validation): Improper Artifact Integrity Validation
+* [CICD-SEC-10](https://owasp.org/www-project-top-10-ci-cd-security-risks/CICD-SEC-10-Insufficient-Logging-And-Visibility): Insufficient Logging and Visibility
 
 <br /><br /><br /><br />
 
