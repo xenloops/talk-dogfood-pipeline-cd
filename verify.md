@@ -38,16 +38,19 @@ Things to keep in mind:
     5. Create hash from binary/runtime and store securely separately
     6. Rest of pipeline work
 1. In CD part of pipeline:
-    1. Get binary, runtime files
+    1. Get binary, runtime files (if needed)
     2. Hash files
     3. Compare to previous hash -- if same, continue
-    4. Deploy
+    4. Deploy binary
 
 <br /><br /><br /><br />
 
 Generating and validating hashes
 
-
+* Linux built-in: ```shasum```
+* Use SHA-256: ```shasum -a 256 [file]```
+* Write it to a file: ```shasum -a 256 [file] > [file]```
+* Compare a file to its hash: ```shasum -c [file]```
 
 
 
