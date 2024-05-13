@@ -13,7 +13,7 @@
 
 </details>
 
-<br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 
 ## Best Practices in the Pipeline
@@ -32,7 +32,7 @@
 * [CICD-SEC-9](https://owasp.org/www-project-top-10-ci-cd-security-risks/CICD-SEC-09-Improper-Artifact-Integrity-Validation): Improper Artifact Integrity Validation
 * [CICD-SEC-10](https://owasp.org/www-project-top-10-ci-cd-security-risks/CICD-SEC-10-Insufficient-Logging-And-Visibility): Insufficient Logging and Visibility
 
-<br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 ## Pipeline maturity and the OWASP SAMM
 
