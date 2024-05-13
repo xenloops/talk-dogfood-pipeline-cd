@@ -83,13 +83,5 @@ From last year's talk:
 </details>
 
 
-<details>
-  <summary> 4.  </summary>
-   
-</details>
-
-<details>
-  <summary> 4.  </summary>
-   
-</details>
+[Next slide](verify.md)
 
