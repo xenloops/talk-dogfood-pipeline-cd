@@ -10,6 +10,7 @@
 #### And why are these "slides" in Github?
 
 * As security professionals, we should strive to meet developers where they work
+* I like to stretch out beyond the page
 * PowerPoint causes brain warts
 
 #### Ok, why do we really need a sequel talk?
