@@ -1,5 +1,21 @@
 # Pipeline Security
 
+## What are some things that can go wrong with the build pipeline?
+
+<details>
+  <summary> Think: </summary>
+
+* Spoofing
+* Tampering
+* Repudiation
+* Info disclosure
+* Elevation of privilege
+
+</details>
+
+<br /><br /><br /><br />
+
+
 ## Best Practices in the Pipeline
 
 [OWASP CI/CD Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/CI_CD_Security_Cheat_Sheet.html)
