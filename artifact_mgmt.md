@@ -1,18 +1,16 @@
-# Artifact Management
+# To summarize
 
+We want to:
 
+* Manage secrets properly
 * Generate SBOMs
 * Verify contents of app
-  * Create and verify signatures / hashes
-  * Verify sources and signatures of dependencies
-* Check that components are up-to-date
-* Remove unnecessary files
+
+<br /><br />
 
 Best of all....
 
 * Do the above automatically
-
-<br /><br /><br /><br />
 
 
 [Next slide](secrets_mgmt.md)
