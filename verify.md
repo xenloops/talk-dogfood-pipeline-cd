@@ -51,6 +51,9 @@ Generating and validating hashes
 * Use SHA-256: ```shasum -a 256 [file]```
 * Write it to a file: ```shasum -a 256 [file] > [file]```
 * Compare a file to its hash: ```shasum -c [file]```
+  * If the file and its hash match, returns ```[file]: OK```
+  * Otherwise: ```shasum: WARNING: 1 computed checksum did NOT match```
+
 
 
 
