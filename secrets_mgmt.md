@@ -50,11 +50,44 @@ An easy solution: the Jenkins [```Secret```](https://javadoc.jenkins.io/hudson/u
 * Exclude the ```secrets``` directory from backups
 * ```Secret``` fields are round-tripped only in their encrypted form
 
+<br /><br /><br /><br />
+
 A better solution: the Jenkins [Credentials plugin](https://plugins.jenkins.io/credentials)
 
 * A UI for users to manage the credentials available to Jenkins.
 * Integrates with internal or external credentials stores.
 * Easy password rotation! (Employee change, password leak, IT-imposed change)
+
+Using the Credentials plugin
+
+* Set: [Jenkins Project] > Pipeline > Repositories > Credentials > Add
+* View existing: Dashboard > Manage Jenkins > Credentials
+* Create new: From Credentials screen > click on appropriate domain (default Global) > Add Credentials
+* [image here]
+* In the pipeline script, use like:
+  ```
+    withCredentials(
+        [usernamePassword(
+            credentialsId: 'test_service_account', 
+            usernameVariable: 'USERNAME', 
+            passwordVariable: 'PASSWORD')
+        ]) 
+    {
+        sh 'echo "Username: $USERNAME"'
+        sh 'echo "Password: $PASSWORD"'
+    }
+  ...
+  ```
+* In code, access them as appropriate to the language:
+  ```
+  // Use username and password to connect to the database
+  String username = System.getenv("DB_USERNAME");
+  String password = System.getenv("DB_PASSWORD");
+  ...
+  ```  
+
+
+
 
 <br /><br /><br /><br />
 
