@@ -1,4 +1,4 @@
-# Lessons learned
+# Conclusion and Lessons Learned
 
 * Installing and updating Jenkins is easy
 * Installing and integrating other tools less so
