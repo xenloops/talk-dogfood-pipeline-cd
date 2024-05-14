@@ -45,4 +45,4 @@ Generating and validating hashes
 
 
 
-
+[Next slide](finale.md)
