@@ -12,3 +12,5 @@ Installation
 
 
 
+
+[Next slide](deployment.md)
