@@ -81,8 +81,8 @@ Using the Credentials plugin
 * In code, access them as appropriate to the language:
   ```
   // Use username and password to connect to the database
-  String username = System.getenv("DB_USERNAME");
-  String password = System.getenv("DB_PASSWORD");
+  String username = System.getenv("USERNAME");
+  String password = System.getenv("PASSWORD");
   ...
   ```  
 
