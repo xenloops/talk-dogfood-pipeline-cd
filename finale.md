@@ -7,7 +7,7 @@
 <br />
 
 ## Reach out
-* About this talk or appsec: 
+* About this talk, AppSec, or raising chickens: 
   * xenloops [at] protonmail [dot] com
   * Complete talk at https://github.com/xenloops/talk-dogfood-pipeline-cd
 * About the local OWASP chapter: 
