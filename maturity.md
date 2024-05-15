@@ -8,7 +8,7 @@
 * Spoofing
 * Tampering
 * Repudiation
-* Info disclosure
+* Info Disclosure
 * Elevation of privilege
 
 </details>
