@@ -65,6 +65,7 @@ For Secure Deployment, to achieve each level, certain practices must be getting 
 | 3 | Consistently validate artifact integrity. | <p> Process automatically rolls back deployment on integrity breach, using file signatures created at build time. <p> Confirm authenticity of external software. |
 |   | Practice application secret lifecycle management. | <p> Generate/synchronize application secrets using a vetted solution. <p> Application instances use unique secrets. <p> Periodically change and update secrets. |
 
+<br /><br />
 
 ## OWASP ASVS
 
