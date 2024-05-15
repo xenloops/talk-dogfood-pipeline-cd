@@ -1,6 +1,6 @@
 # To summarize
 
-We want to:
+We want to improve risk to the pipeline
 
 * Manage secrets properly
 * Generate SBOMs
