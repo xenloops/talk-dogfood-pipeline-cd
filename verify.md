@@ -42,6 +42,18 @@ Generating and validating hashes
 * Compare two hash files: ```cmp [hashfile1] [hashfile2]```
   * If identical, returns nothing
 
+But... ```shasum``` doesn't work on a directory
+<details>
+  <summary> Options? </summary>
+  * Compute hash on each compiled binary
+     * Ideally we only compute one hash
+  * Zip directory, then hash compressed file
+     * tar -zf archive-name.tar.gz source-directory
+     * where:
+       * ```-z``` uses gzip program for compression
+       * ```-c``` create archive (rather than append)
+       * ```-f``` archive path and file name
+</details>
 
 
 
