@@ -103,4 +103,4 @@ Best efforts should be undertaken to ensure that the code has no inherent malici
 | 2 | Verify that HTTP headers added by a proxy are authenticated by the app. |
 
 
-[Next slide](artifact_mgmt.md)
+[Next slide](pipeline.md)
