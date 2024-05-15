@@ -102,7 +102,7 @@ Internal secrets storage takes extra care
 * No builds on the controller (ideally zero executors).
 * Secure the Jenkins filesystem. Jenkins uses strong encryption, but has to store the key somewhere...
 
-<br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 Jenkins key storage
 * Recall how security by obscurity isn't security?
