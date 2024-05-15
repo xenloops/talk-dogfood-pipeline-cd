@@ -1,19 +1,19 @@
 # Why are we doing this?
 
-* Proof-of-concept for pipeline tools
-* "Security is everyone's job"
+* Security people should know how hard DevOps is
+* Proof-of-concept for DevSecOps tools
 * All the tools are free
-* But... make sure the licensing is appropriate to your use case 
+  * But... make sure the licensing is appropriate to your use case 
   * e.g. "community" editions of commercial software
-* Geek cred?
+* Geek cred **(?)**
 
-#### And why are these "slides" in Github?
+### And why are these "slides" in Github?
 
 * As security professionals, we should strive to meet developers where they work
 * I like to stretch out beyond the page
 * PowerPoint causes brain warts
 
-#### Ok, why do we really need a sequel talk?
+### Ok, why do we really need a sequel talk?
 
 Feedback from last year's talk showed a need for good nuts-and-bolts tutorials.
 
