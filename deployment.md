@@ -6,7 +6,8 @@ We have:
 
 * Code in a repo
 * Secrets that we need to keep secret
-* 
+* An SBOM to generate
+* Code and binaries to verify
 
 ## Now, let's put them together!
 
