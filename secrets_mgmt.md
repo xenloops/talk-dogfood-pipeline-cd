@@ -56,8 +56,9 @@ An easy solution: the Jenkins [```Secret```](https://javadoc.jenkins.io/hudson/u
 
 ## A better solution: the Jenkins [Credentials plugin](https://plugins.jenkins.io/credentials)
 
-* A UI for users to manage the credentials available to Jenkins.
-* Integrates with internal or external credentials stores.
+* A UI for users to manage the credentials available to Jenkins
+* Internal
+* Also integrates with external credentials stores
 * Easy password rotation! (Employee change, password leak, IT-imposed change)
 
 
