@@ -45,6 +45,7 @@ Generating and validating hashes
 But... ```shasum``` doesn't work on a directory
 <details>
   <summary> Options? </summary>
+   
   * Compute hash on each compiled binary
      * Ideally we only compute one hash
   * Zip directory, then hash compressed file
@@ -53,6 +54,7 @@ But... ```shasum``` doesn't work on a directory
        * ```-z``` uses gzip program for compression
        * ```-c``` create archive (rather than append)
        * ```-f``` archive path and file name
+      
 </details>
 
 
