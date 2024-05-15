@@ -13,7 +13,7 @@
 
 </details>
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 
 ## Best Practices in the Pipeline
@@ -44,7 +44,7 @@ The [OWASP Software Assurance Maturity Model](https://owaspsamm.org) (SAMM):
 
 (For help using the SAMM, see the site or contact one of the many fine [SAMM practictioners listed](https://owaspsamm.org/practitioners).)
 
-<br /><br />
+<br />
 
 * SAMM covers 15 security practices, including **Secure Deployment**
 * SAMM divides the maturity of each practice into three levels
