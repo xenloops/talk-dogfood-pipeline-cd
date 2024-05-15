@@ -5,11 +5,12 @@
 <details>
   <summary> Think: </summary>
 
-* Spoofing
-* Tampering
-* Repudiation
-* Info Disclosure
-* Elevation of privilege
+* **S**poofing
+* **T**ampering
+* **R**epudiation
+* **I**nfo disclosure
+* **D**enial of Service
+* **E**levation of privilege
 
 </details>
 
