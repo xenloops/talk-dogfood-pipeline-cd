@@ -83,5 +83,46 @@ From last year's talk:
 </details>
 
 
+### You're da SBOM
+
+
+
+
+### Verify
+
+Using the Credentials plugin
+
+* Set: [Jenkins Project] > Pipeline > Repositories > Credentials > Add
+* View existing: Dashboard > Manage Jenkins > Credentials
+* Create new: From Credentials screen > click on appropriate domain (default Global) > Add Credentials
+* [image here]
+* In the pipeline script, use like:
+  ```
+    withCredentials(
+        [usernamePassword(
+            credentialsId: 'test_service_account', 
+            usernameVariable: 'USERNAME', 
+            passwordVariable: 'PASSWORD')
+        ]) 
+    {
+        sh 'echo "Username: $USERNAME"'
+        sh 'echo "Password: $PASSWORD"'
+    }
+  ...
+  ```
+* In code, access them as appropriate to the language:
+  ```
+  // Use username and password to connect to the database
+  String username = System.getenv("USERNAME");
+  String password = System.getenv("PASSWORD");
+  ...
+  ```  
+
+
+
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+
 [Next slide](lessons_outcomes.md)
 
