@@ -35,7 +35,7 @@ He works as an AppSec architect and leads the local OWASP chapter, which you can
 1. Pipeline Visualization
 1. Integration with Other Tools
 
-<br /><br /><br />
+<br />
 
 ## Key takeaways
 * Automation streamlines software delivery
