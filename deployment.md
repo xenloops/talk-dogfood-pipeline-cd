@@ -83,5 +83,5 @@ From last year's talk:
 </details>
 
 
-[Next slide](verify.md)
+[Next slide](lessons_outcomes.md)
 
