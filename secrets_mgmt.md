@@ -35,6 +35,8 @@ Protect secrets in a key vault:
 * Audit trail
 * Secrets masking (logging or other output)
 
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
 ## A low-budget way -- Jenkins FTW!
 
 Problem: Jenkins serializes plugin ```String``` fields to disk, including credentials!
@@ -50,7 +52,7 @@ An easy solution: the Jenkins [```Secret```](https://javadoc.jenkins.io/hudson/u
 * Exclude the ```secrets``` directory from backups
 * ```Secret``` fields are round-tripped only in their encrypted form
 
-<br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 A better solution: the Jenkins [Credentials plugin](https://plugins.jenkins.io/credentials)
 
@@ -89,7 +91,7 @@ Using the Credentials plugin
 
 
 
-<br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 Internal secrets storage takes extra care
 
