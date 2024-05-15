@@ -8,9 +8,9 @@ This is a sequel to [last year's talk](https://github.com/xenloops/talk-dogfood-
 
 **Talk given at UMSA Secure360 (15-16 May 2024)**
 
+<br /><br /><br /><br />
+
 [Next slide](start_here.md)
 
 
-TODOs
-Update SonarQube
-Update Jenkins
+
