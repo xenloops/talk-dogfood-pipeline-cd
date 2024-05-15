@@ -17,9 +17,9 @@
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 
-## Best Practices in the Pipeline
+## Best Practices for the Pipeline
 
-[OWASP CI/CD Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/CI_CD_Security_Cheat_Sheet.html)
+[**OWASP CI/CD Security Cheat Sheet**](https://cheatsheetseries.owasp.org/cheatsheets/CI_CD_Security_Cheat_Sheet.html)
 
 A lot of guidance relating to:
 * Configuration
@@ -28,7 +28,7 @@ A lot of guidance relating to:
 * Integrity
 * Monitoring
 
-[OWASP Top 10 CI/CD Security Risks](https://owasp.org/www-project-top-10-ci-cd-security-risks/):
+[**OWASP Top 10 CI/CD Security Risks**](https://owasp.org/www-project-top-10-ci-cd-security-risks/):
 * [CICD-SEC-1](https://owasp.org/www-project-top-10-ci-cd-security-risks/CICD-SEC-01-Insufficient-Flow-Control-Mechanisms): Insufficient Flow Control Mechanisms
 * [CICD-SEC-2](https://owasp.org/www-project-top-10-ci-cd-security-risks/CICD-SEC-02-Inadequate-Identity-And-Access-Management): Inadequate Identity and Access Management
 * [CICD-SEC-3](https://owasp.org/www-project-top-10-ci-cd-security-risks/CICD-SEC-03-Dependency-Chain-Abuse): Dependency Chain Abuse
@@ -42,7 +42,7 @@ A lot of guidance relating to:
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-## Pipeline maturity and the OWASP SAMM
+## The OWASP SAMM and pipeline maturity
 
 The [OWASP Software Assurance Maturity Model](https://owaspsamm.org) (SAMM):
 
