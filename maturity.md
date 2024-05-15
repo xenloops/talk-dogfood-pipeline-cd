@@ -42,7 +42,7 @@ A lot of guidance relating to:
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-## The OWASP SAMM and pipeline maturity
+## The OWASP SAMM, ASVS, and pipeline maturity
 
 The [OWASP Software Assurance Maturity Model](https://owaspsamm.org) (SAMM):
 
