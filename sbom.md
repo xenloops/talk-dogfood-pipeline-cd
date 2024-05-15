@@ -13,4 +13,4 @@ Installation
 
 
 
-[Next slide](deployment.md)
+[Next slide](verify.md)
