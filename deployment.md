@@ -164,6 +164,8 @@ But... ```shasum``` doesn't work on a directory
       
 </details>
 
+<br /><br /><br /><br />
+
 Please see the test project's [Jenkinsfile](https://github.com/xenloops/password-vault/blob/master/Jenkinsfile) for implementation.
 
 <br /><br /><br /><br />
