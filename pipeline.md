@@ -1,4 +1,4 @@
-# To summarize
+# For this effort...
 
 We want to improve risk to the pipeline
 
