@@ -12,6 +12,7 @@
   * Signal: xenloops.47
   * LinkedIn: [https://www.linkedin.com/in/securenathanlarson](https://www.linkedin.com/in/securenathanlarson)
   * Complete talk at https://github.com/xenloops/talk-dogfood-pipeline-cd
+  * ![](images/QR_talk.png)
 * About the local OWASP chapter: 
   * [https://owasp.org/www-chapter-minneapolis-st-paul](https://owasp.org/www-chapter-minneapolis-st-paul)
   * nathan.larson [at] owasp [dot] org
