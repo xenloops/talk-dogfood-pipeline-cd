@@ -1,17 +1,13 @@
 # Build verification
 
-
-Things to keep in mind:
-
 * Goal: provably verify that code going in matches binary coming out
 * Use cryptographically strong functions (e.g. SHA-256 hash)
 * Calculate hash values (and store them) separately and securely
-* Use best practices to secure the pipeline, its tools, and storage
 * Define the build environment specifications explicitly
 * Isolate the build environment
 * Log all activities in the build pipeline, and audit randomly
 
-<br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br />
 
 ### Overall process
 
