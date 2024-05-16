@@ -13,6 +13,7 @@ SBOMs are important to:
 * Facilitate vulnerability management, patching, and risk assessment by identifying known vulnerabilities in software components and their dependencies.
 * Support software composition analysis (SCA) tools and practices
 
+![](images/sbom_example.png)
 
 
 [Next slide](verify.md)
