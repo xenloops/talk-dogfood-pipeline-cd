@@ -151,7 +151,7 @@ But... ```shasum``` doesn't work on a directory
   * Compute hash on each compiled binary
      * Ideally we only compute one hash
   * Zip directory, then hash compressed file
-     * tar -zf archive-name.tar.gz source-directory
+     * ```tar -zf [archive-name].tar.gz [source-directory]```
      * where:
        * ```-z``` uses gzip program for compression
        * ```-c``` create archive (rather than append)
@@ -159,6 +159,7 @@ But... ```shasum``` doesn't work on a directory
       
 </details>
 
+Please see the test project's [Jenkinsfile](https://github.com/xenloops/password-vault/blob/master/Jenkinsfile) for implementation.
 
 [Next slide](lessons_outcomes.md)
 
