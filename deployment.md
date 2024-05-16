@@ -121,17 +121,23 @@ Using the Credentials plugin
 
 CycloneDX cdxgen
 
-Installation
-* [Download cdxgen binary](https://github.com/CycloneDX/cdxgen)
-* ```cdxgen -o sbom.json```
+* [Download cdxgen binary and install](https://github.com/CycloneDX/cdxgen)
+* Basic use: ```cdxgen -o sbom.json```
 * Test: ```cdxgen --help```
+* Many options, shown in help output
+* Command places SBOM file in project's root directory
+
+Once SBOM created, CycloneDX also has ability to sign the file:
+* [Download CycloneDX-CLI and install](https://github.com/CycloneDX/cyclonedx-cli)
+* First need to generate signing keypair (only once): ```sudo cyclonedx keygen```
+* Currently only signs XMLs, so convert: ```cyclonedx-cli convert --input-file sbom.xml --output-file sbom.json```
+* Then sign: ```cyclonedx sign bom sbom.xml```
 
 
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 
 ### Verify
-
-
 
 Generating and validating hashes
 
