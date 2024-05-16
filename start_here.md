@@ -24,17 +24,12 @@ He works as an AppSec architect and leads the local OWASP chapter, which you can
 
 ## Agenda
 
-1. What are we trying to fix?
-1. Pipeline maturity and the OWASP SAMM
-2. Artifact management
+1. What are we trying to do?
+1. Pipeline security and maturity
 3. Secrets management
-5. Deployment
-1. Tool setup & demo:
-   * Development and build environment integration
-   * Signature checking
-1. The CD pipeline ```as code```
-1. Pipeline Visualization
-1. Integration with Other Tools
+4. SBOM
+5. Build verification
+6. Deployment and tool setup & demo
 
 <br />
 
