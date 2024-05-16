@@ -25,7 +25,6 @@ He works as an AppSec architect and leads the local OWASP chapter, which you can
 ## Agenda
 
 1. What are we trying to fix?
-1. A bit of review
 1. Pipeline maturity and the OWASP SAMM
 2. Artifact management
 3. Secrets management
