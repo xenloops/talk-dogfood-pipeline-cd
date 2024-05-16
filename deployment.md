@@ -11,7 +11,7 @@ We have:
 
 ## Now, let's put them together!
 
-<br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 ### Prerequisites
 
@@ -22,7 +22,7 @@ From last year's talk:
 * [Install SonarQube (for SAST)](https://github.com/xenloops/talk-dogfood-pipeline-ci/blob/main/sast.md)
 * [Create the pipeline as code (for best results)](https://github.com/xenloops/talk-dogfood-pipeline-ci/blob/main/pipe_as_code_2.md)
 
-<br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 ### Add a secret
 
@@ -119,7 +119,7 @@ Using the Credentials plugin
 
 ### You're da SBOM
 
-CycloneDX cdxgen
+CycloneDX cdxgen creates SBOMs
 
 * [Download cdxgen binary and install](https://github.com/CycloneDX/cdxgen)
 * Basic use: ```cdxgen -o sbom.json```
@@ -165,6 +165,8 @@ But... ```shasum``` doesn't work on a directory
 </details>
 
 Please see the test project's [Jenkinsfile](https://github.com/xenloops/password-vault/blob/master/Jenkinsfile) for implementation.
+
+<br /><br /><br /><br />
 
 [Next slide](lessons_outcomes.md)
 
