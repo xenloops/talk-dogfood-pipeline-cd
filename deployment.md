@@ -122,10 +122,9 @@ Using the Credentials plugin
 CycloneDX cdxgen
 
 Installation
-* [Download CLI binary](https://github.com/CycloneDX/cyclonedx-cli)
-* ```sudo cp cyclonedx-linux-x64 /usr/bin/cyclonedx```
-* ```sudo chmod +x /usr/bin/cyclonedx```
-* Test: ```cyclonedx --help```
+* [Download cdxgen binary](https://github.com/CycloneDX/cdxgen)
+* ```cdxgen -o sbom.json```
+* Test: ```cdxgen --help```
 
 
 
