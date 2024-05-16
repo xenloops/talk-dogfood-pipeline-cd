@@ -1,12 +1,12 @@
 # Software Bill of Materials (SBOM)
 
-In summary, SBOM is a structured document that provides a comprehensive view of software components and their dependencies, aiding in software security, compliance, and risk management throughout the software lifecycle.
+The SBOM is a structured document that provides a comprehensive view of software components and their dependencies, aiding in software security, compliance, and risk management throughout the software lifecycle.
 
 * List of all software components used in a software project
 * Detailed inventory of components, libraries, dependencies, etc.
 * Includes component names, versions, licenses, and dependencies
 
-SBOMs are important
+SBOMs are important to:
 
 * Help track and manage software supply chain risks
 * Help ensure software security, compliance, and transparency
