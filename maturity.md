@@ -80,11 +80,9 @@ For Secure Deployment, to achieve each level, certain practices must be getting 
 
 The ASVS also divides its standards into three levels:
 
-**Level 1** is the bare minimum that all applications should strive for, or for applications do not handle sensitive data.
-
-**Level 2** ensures that security controls are in place, effective, and used within the application. Adequately defends against most current software risks.
-
-**Level 3** is the highest level of ASVS verification, and is typically reserved for apps with significant risk (e.g. military, health and safety, critical infrastructure, etc.)
+* **Level 1** is the bare minimum that all applications should strive for, or for applications do not handle sensitive data.
+* **Level 2** ensures that security controls are in place, effective, and used within the application. Adequately defends against most current software risks.
+* **Level 3** is the highest level of ASVS verification, and is typically reserved for apps with significant risk (e.g. military, health and safety, critical infrastructure, etc.)
 
 For deployment, the OWASP (ASVS) calls out the following standards:
 
